@@ -1,6 +1,6 @@
-![SLICE](slice_title_img.png)
-
 # SLICE: Stabilized LIME for Consistent Explanations for Image Classification
+
+![SLICE](slice_title_img.png)
 
 Code for the paper published in CVPR 2024 (Highlight).
 
