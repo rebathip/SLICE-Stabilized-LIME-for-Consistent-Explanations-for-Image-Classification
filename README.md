@@ -14,6 +14,7 @@ In slice_test.py the explaner is run multiple time to check the consistency at e
 Disclaimer: The code was written for tensorflow
 
 ##Citation
+If you use this code, please cite the following paper:
 @InProceedings{Bora_2024_CVPR,
     author    = {Bora, Revoti Prasad and Terh\"orst, Philipp and Veldhuis, Raymond and Ramachandra, Raghavendra and Raja, Kiran},
     title     = {SLICE: Stabilized LIME for Consistent Explanations for Image Classification},
