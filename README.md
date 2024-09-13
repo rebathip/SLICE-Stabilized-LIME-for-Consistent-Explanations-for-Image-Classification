@@ -1,8 +1,9 @@
 # SLICE: Stabilized LIME for Consistent Explanations for Image Classification
+by Revoti Prasad Bora, Philipp Terhörst, Raymond Veldhuis, Raghavendra Ramachandra, Kiran Raja
 
 ![SLICE](slice_title_img.png)
 
-Code for the paper published in CVPR 2024 (Highlight).
+Code for our paper published in CVPR 2024 (Highlight).
 
 Steps:
 1) Install required packages
