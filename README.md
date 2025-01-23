@@ -7,12 +7,17 @@ Code for our paper published in CVPR 2024 (Highlight).
 
 Steps:
 1) Install required packages
-2) run slice_test.py
+2) run slice_test.py: This gives the explanations and populates the results directory
+3) run fidelity_20runs.py to compute the fidelity scores using the pickle files from results directory and store the results in fidelity_results directory
+4) run fidelity_plots.py to make plots for visualization using the pickle files form fidelity results directory
 
+Directory Structure:
+1)the results directory should have the following sub-directories: oxpets and pvoc. Each of these should have subdirectories with pattern explanationtechnique_modelname (i.e. lime_resnet50)
+2) The fidelity_results directory should have the following sub-directories: aopc_ins, aopc_del, ins, del
 In slice_test.py the explaner is run multiple time to check the consistency at each run but ideally this explainer can be run once.
 
 
-Disclaimer: The code was written for tensorflow
+Disclaimer: The code was written for tensorflow and for each subsequent file to run the directory names and filenames should follow the convention as stated in "Directory Structure"
 
 ## Citation
 
